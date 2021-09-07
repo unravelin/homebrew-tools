@@ -54,7 +54,7 @@ That's it, really. You're good to go! 🚀
 
 When you update all repos the usual way, it will also update Ravelin's tap. Whenever new version appears, you will see it while searching.
 
-Unfortunately, since we need to keep Protobuf at specific version. That means, each version is a separate formula. All you need to is as follows.
+Unfortunately, since we need to keep Protobuf at specific version. That means, each version is a separate formula. All you need to do is as follows.
 
 Uninstall current version.
 
