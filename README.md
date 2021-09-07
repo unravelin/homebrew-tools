@@ -54,19 +54,26 @@ That's it, really. You're good to go! 🚀
 
 When you update all repos the usual way, it will also update Ravelin's tap. Whenever new version appears, you will see it while searching.
 
-Unfortunately, since we need to keep Protobuf at specific version. That means, each version is a separate formula. All you need to is - uninstall current version.
+Unfortunately, since we need to keep Protobuf at specific version. That means, each version is a separate formula. All you need to is as follows.
+
+Uninstall current version.
+
 ```
-unravelin/tools/protobuf@x.x.x
+brew uninstall unravelin/tools/protobuf@x.x.x
 ```
+
 And then install the version you need.
+
 ```
-unravelin/tools/protobuf@y.y.y
+brew install unravelin/tools/protobuf@y.y.y
 ```
+
 Again, this must be built from source so it will take time.
 
 ## How to remove your tap?
 
 If you ever need to remove the tap, just type below.
+
 ```
 brew untap unravelin/tools
 ```
